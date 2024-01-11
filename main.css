@@ -1,17 +1,75 @@
 body {
-  background-color: black;
+  padding: 0;
+  margin: 0;
 }
 
-.number {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.sumbar {
+  background-color: black;
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 5px;
+}
+
+.button {
+  background-color: lightgrey;
   color: black;
-  padding: 200px;
-  background-color: grey;
-  width: 200px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 1px 5px;
+  flex: 1;
+}
+
+.function-button {
+  background-color: orange;
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 1px 5px;
+  flex: 1;
+}
+
+.container {
+  background-color: black;
   display: flex;
+  flex-direction: row;
+  justify-content: center space-between;
   flex-wrap: wrap;
-  gap: 100px;
-  row-gap: 100px;
-  column-gap: 200px;
-  align-content: space-between 100px;
+  width: 400px;
+  height: 80px;
+}
+
+.button:hover {
+  background:#ebebeb;
+  display:inline-block;
+  padding:1px 5px;
+}
+
+.button:active {
+  background:#bbbcbe;
+  display:inline-block;
+  padding:1px 5px;
+}
+
+.function-button:hover {
+  background:#dfb07e;
+  display:inline-block;
+  padding:1px 5px;
+}
+
+.function-button:active {
+  background:#dd8d37;
+  display:inline-block;
+  padding:1px 5px;
+}
+
+.boxC {
+  flex: 2.15;
+}
+
+.box0 {
+  flex: 3.35;
 }
