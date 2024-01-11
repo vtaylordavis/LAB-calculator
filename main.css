@@ -3,13 +3,15 @@ body {
   margin: 0;
 }
 
-.sumbar {
-  background-color: black;
+.result-screen {
   color: white;
-  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
   padding: 20px 5px;
+  justify-content: flex-end;
+  text-align: right;
+  align-items: right;
+  align-content: right;
 }
 
 .button {
@@ -19,7 +21,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 1px 5px;
-  flex: 1;
+  flex: 0 1 25%;
+  border: 1px solid black;
 }
 
 .function-button {
@@ -29,7 +32,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 1px 5px;
-  flex: 1;
+  flex: 0 1 25%;
+  border: 1px solid black; 
 }
 
 .container {
